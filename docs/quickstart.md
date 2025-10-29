@@ -242,7 +242,7 @@ print(assistant.summarize_memories())
 
 ## Need Help?
 
-- Join our [Discord community](https://discord.gg/vidurai)
+- Join our [Discord community](https://discord.gg/DHdgS8eA)
 - Check [GitHub Issues](https://github.com/chandantochandan/vidurai/issues)
 - Read the [FAQ](./faq)
 

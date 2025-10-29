@@ -322,7 +322,7 @@ context = "\n".join([m.content for m in memories])
 
 ### Where can I get help?
 
-1. **Discord**: Join our [community](https://discord.gg/vidurai)
+1. **Discord**: Join our [community](https://discord.gg/DHdgS8eA)
 2. **GitHub**: Open an [issue](https://github.com/chandantochandan/vidurai/issues)
 3. **Documentation**: Check our [docs](https://docs.vidurai.ai)
 4. **Email**: support@vidurai.ai
@@ -379,6 +379,6 @@ The conscience layer that makes ethical decisions about memory:
 
 ---
 
-**Still have questions?** Join our [Discord community](https://discord.gg/vidurai)!
+**Still have questions?** Join our [Discord community](https://discord.gg/DHdgS8eA)!
 
 **जय विदुराई** (Victory to Vidurai)

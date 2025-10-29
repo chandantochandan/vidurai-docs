@@ -416,4 +416,4 @@ print(stats)
 
 ---
 
-Questions? Join our [Discord community](https://discord.gg/vidurai)!
+Questions? Join our [Discord community](https://discord.gg/DHdgS8eA)!

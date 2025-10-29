@@ -99,4 +99,4 @@ Or use a virtual environment (recommended).
 
 ---
 
-Need help? Join our [Discord community](https://discord.gg/vidurai)!
+Need help? Join our [Discord community](https://discord.gg/DHdgS8eA)!

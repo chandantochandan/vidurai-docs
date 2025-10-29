@@ -55,7 +55,7 @@ Continue to the [Installation Guide](./installation) →
 
 Join the Sangha (community):
 
-- 💬 [Discord Server](https://discord.gg/vidurai)
+- 💬 [Discord Server](https://discord.gg/DHdgS8eA)
 - 🐙 [GitHub Repository](https://github.com/chandantochandan/vidurai)
 - 🌐 [Main Website](https://vidurai.ai)
 

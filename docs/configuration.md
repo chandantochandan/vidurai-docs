@@ -202,4 +202,4 @@ memory = Vidurai(
 
 ---
 
-Need help with configuration? Join our [Discord](https://discord.gg/vidurai)!
+Need help with configuration? Join our [Discord](https://discord.gg/DHdgS8eA)!
