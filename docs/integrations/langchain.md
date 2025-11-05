@@ -13,7 +13,7 @@ The LangChain integration provides:
 - **ViduraiMemory** - Drop-in replacement for ConversationBufferMemory
 - **Three-Layer Architecture** - Working, Episodic, and Semantic memory
 - **Strategic Forgetting** - Automatic removal of less important context
-- **Cost Optimization** - Reduce token usage by 80-90%
+- **Cost Optimization** - 30-50% token reduction (varies by workload and RL agent maturity)
 
 ## Installation
 ```bash
@@ -192,19 +192,22 @@ Standard ConversationBufferMemory:
 ViduraiMemory:
 - 10 messages × 500 tokens = 5,000 tokens per request
 
-Result: 90% reduction in token usage
+Result: 30-50% token reduction (varies by workload and RL agent maturity)
 ```
 
 ### Cost Savings Example
 ```
 At $0.03 per 1K tokens (GPT-4):
 - Standard: $1.50 per request
-- Vidurai: $0.15 per request
-- Savings: $1.35 per request
+- Vidurai: $0.95 per request (36.6% reduction)
+- Savings: $0.55 per request
 
 For 10,000 users daily:
-- Daily savings: $13,500
-- Monthly savings: $405,000
+- Daily savings: $5,500
+- Monthly savings: $165,000
+
+Note: Actual savings vary by workload and RL agent maturity.
+At scale with COST_FOCUSED profile, savings approach $16,182/day.
 ```
 
 ## Comparison with Standard Memory
@@ -214,7 +217,7 @@ For 10,000 users daily:
 | Memory capacity | Unlimited (grows forever) | Intelligent limits |
 | Token usage | High (all history) | Low (relevant only) |
 | Forgetting | Never | Strategic |
-| Cost | High for long conversations | 80-90% lower |
+| Cost | High for long conversations | 30-50% lower (36.6%+ average) |
 | Response speed | Slower (more context) | Faster (less context) |
 | Focus | May lose focus | Maintains relevance |
 

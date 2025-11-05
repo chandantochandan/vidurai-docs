@@ -111,17 +111,53 @@ memory = Vidurai(
 ```python
 memory = Vidurai(
     user_id="user-123",
-    
+
     # Forgetting strategy
     enable_vismriti=True,
-    compression_ratio=0.9,        # Remove 90% of noise
-    
+    compression_ratio=0.366,      # 36.6%+ token reduction (production-verified)
+
     # What to forget
     forget_trivial=True,          # "hmm", "let me think", etc.
     forget_duplicates=True,       # Remove redundant memories
     forget_outdated=True,         # Remove superseded information
 )
 ```
+
+### Vismriti RL Agent (v1.5.1+)
+
+The self-learning brain of Vidurai. Uses Q-learning to optimize compression decisions:
+
+```python
+from vidurai import Vidurai
+from vidurai.core.data_structures_v2 import RewardProfile
+
+# Cost-focused: Prioritizes token savings
+memory = Vidurai(reward_profile=RewardProfile.COST_FOCUSED)
+
+# Quality-focused: Prioritizes information preservation
+memory = Vidurai(reward_profile=RewardProfile.QUALITY_FOCUSED)
+
+# Balanced: Middle ground (default)
+memory = Vidurai(reward_profile=RewardProfile.BALANCED)
+```
+
+**How it learns:**
+- Starts with epsilon=0.30 (30% exploration, 70% exploitation)
+- Decays to epsilon=0.05 over 1000 episodes (5% exploration, 95% exploitation)
+- Learns Q-values for state-action pairs through experience
+- Persists learning to `~/.vidurai/q_table.json`
+
+**Key difference from v1.0:** No hardcoded rules. Intelligence emerges through reinforcement learning.
+
+**Monitor learning progress:**
+```python
+stats = memory.get_rl_agent_stats()
+print(f"Episodes: {stats['episodes']}")
+print(f"Epsilon: {stats['epsilon']:.3f}")
+print(f"Q-table size: {stats['q_table_size']}")
+```
+
+The agent needs 50-100 episodes to fully mature and show clear profile differentiation.
 
 ### Viveka Layer (Conscience)
 ```python

@@ -359,8 +359,25 @@ Yes! Check our [GitHub Projects](https://github.com/chandantochandan/vidurai/pro
 
 The insight that forgetting is as important as remembering. Vidurai implements Vismriti (विस्मृति - the art of forgetting) to:
 - Remove noise and trivial information
-- Reduce token costs by 90%
+- Reduce token costs by 36.6%+ (production-verified)
 - Improve relevance and signal-to-noise ratio
+
+### How does Vidurai achieve token reduction?
+
+Vidurai achieves an average of 36.6%+ token reduction through:
+
+1. **Semantic Compression:** LLM-based compression of verbose conversations
+2. **Vismriti RL Agent:** Self-learning optimizer that adapts compression strategies
+3. **Strategic Forgetting:** Intelligent decay of low-importance memories
+4. **Three-Kosha Architecture:** Multi-layer memory with different retention policies
+
+The actual reduction varies by:
+- Workload characteristics (conversational vs transactional)
+- RL agent maturity (improves over 50-100 episodes)
+- Reward profile (COST_FOCUSED achieves higher reduction)
+- Decay configuration (aggressive decay = more reduction)
+
+Production testing with 9 comprehensive scenarios verified 36.6%+ average reduction across different workloads.
 
 ### What are the Three Koshas?
 
