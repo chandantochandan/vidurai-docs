@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Vidurai Documentation',
   tagline: 'Persistent Memory for AI Agents',
-  favicon: 'img/favicon.ico',
+  favicon: 'favicon.ico',
 
   url: 'https://docs.vidurai.ai',
   baseUrl: '/',
@@ -38,12 +38,12 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/logo.svg',
+    image: 'img/logo.jpg',
     navbar: {
       title: 'Vidurai',
       logo: {
         alt: 'Vidurai Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.jpg',
       },
       items: [
         {
