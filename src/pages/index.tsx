@@ -34,7 +34,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Vidurai provides intelligent, persistent memory for AI agents with Three-Kosha architecture and RL-based compression.">
+      description="Intelligent memory management for AI coding assistants. 59% token reduction, 90% time savings. Python SDK + VS Code Extension.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

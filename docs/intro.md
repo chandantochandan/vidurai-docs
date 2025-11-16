@@ -4,13 +4,29 @@ sidebar_position: 1
 
 # Introduction to Vidurai
 
-Welcome to **Vidurai** - the first open-source persistent memory system for AI agents.
+Welcome to **Vidurai** - the first open-source intelligent memory system for AI coding assistants.
 
 ## 🕉️ What is Vidurai?
 
-Vidurai transforms stateless AI assistants into beings with true continuity, context, and wisdom. It provides a production-ready memory layer that allows AI agents to remember conversations, learn from interactions, and maintain context across sessions.
+Vidurai transforms stateless AI coding assistants into tools with true continuity, context, and wisdom. It provides a production-ready memory layer that **reduces token costs by 59%** and **saves 90% of context-gathering time** while maintaining 95.6/100 quality scores.
 
 **The name Vidurai** comes from **Vidura**, the wise counselor in the Mahabharata, renowned for his memory, judgment, and guidance.
+
+## 🏗️ Two Ways to Use Vidurai
+
+Vidurai uses a **layered architecture** where the SDK provides the intelligence and integrations provide the interfaces:
+
+### 🧠 **Vidurai SDK** (This Documentation)
+The core Python package providing intelligent memory management. Perfect for:
+- Custom AI integrations
+- Jupyter notebooks
+- CLI tools
+- Python-based workflows
+
+### 🖥️ **VS Code Extension**
+Pre-built interface for VS Code users. Learn more at [vidurai.ai](https://vidurai.ai)
+
+**Choose the path that fits your workflow. Both use the same powerful SDK underneath.**
 
 ## 🎉 What's New in v1.5.1
 
@@ -61,21 +77,21 @@ See full details: [CHANGELOG](https://github.com/chandantochandan/vidurai/blob/m
 
 ## The Problem
 
-Modern AI assistants suffer from amnesia. Every conversation is a fresh start:
+Working with AI coding assistants is frustratingly inefficient:
 
-- ❌ No memory of past interactions
-- ❌ No understanding of user preferences
-- ❌ No ability to build relationships over time
-- ❌ Repetitive and frustrating user experiences
+- ❌ **60 seconds** to manually gather context (files, terminal, errors)
+- ❌ **$500/month** in API costs from bloated context
+- ❌ **Context switching chaos** - copy-paste hell
+- ❌ **Forgotten details** lead to missed bugs
 
 ## The Solution
 
 Vidurai provides:
 
-- ✅ **Persistent Memory**: Conversations and context survive across sessions
-- ✅ **Intelligent Retrieval**: Relevant memories surface automatically
-- ✅ **Privacy First**: Full control over what's remembered and shared
-- ✅ **Production Ready**: Built for scale, security, and reliability
+- ✅ **90% Time Savings**: Context ready in 5 seconds (vs 60s manual)
+- ✅ **59% Token Reduction**: Intelligent compression maintains quality
+- ✅ **Privacy First**: 100% local storage, no cloud required
+- ✅ **Universal Compatibility**: Works with any AI coding assistant
 
 ## Philosophy
 

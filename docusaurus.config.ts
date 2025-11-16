@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Vidurai Documentation',
-  tagline: 'Persistent Memory for AI Agents',
+  tagline: 'Intelligent Memory for AI Coding Assistants',
   favicon: 'favicon.ico',
 
   url: 'https://docs.vidurai.ai',
@@ -50,7 +50,17 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'SDK Docs',
+        },
+        {
+          href: 'https://pypi.org/project/vidurai/',
+          label: 'PyPI',
+          position: 'left',
+        },
+        {
+          href: 'https://marketplace.visualstudio.com/items?itemName=vidurai.vidurai',
+          label: 'VS Code Extension',
+          position: 'left',
         },
         {
           href: 'https://vidurai.ai',
@@ -63,7 +73,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://discord.gg/vidurai',
+          href: 'https://discord.gg/DHdgS8eA',
           label: 'Discord',
           position: 'right',
         },
@@ -90,11 +100,15 @@ const config: Config = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.gg/vidurai',
+              href: 'https://discord.gg/DHdgS8eA',
             },
             {
-              label: 'GitHub',
+              label: 'GitHub SDK',
               href: 'https://github.com/chandantochandan/vidurai',
+            },
+            {
+              label: 'GitHub Extension',
+              href: 'https://github.com/chandantochandan/vidurai-vscode-extension',
             },
           ],
         },

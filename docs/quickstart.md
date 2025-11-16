@@ -4,9 +4,29 @@ sidebar_position: 3
 
 # Quick Start
 
-Build your first memory-enabled AI agent in 5 minutes.
+Get started with Vidurai in 5 minutes - choose the path that fits your workflow.
 
-## Step 1: Initialize Vidurai
+## 🚀 Choose Your Path
+
+### **Option A: VS Code Extension** (Fastest)
+Perfect if you want a ready-to-use solution with zero configuration:
+
+1. Install from [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=vidurai.vidurai)
+2. Click "Capture Context" in the sidebar
+3. One-click export to any AI coding assistant
+
+**Done!** No coding required. [Learn more →](https://vidurai.ai)
+
+---
+
+### **Option B: Vidurai SDK** (This Guide)
+Perfect for custom integrations, Jupyter notebooks, or Python workflows.
+
+Continue reading below for SDK setup and usage.
+
+---
+
+## Step 1: Install & Initialize
 ```python
 from vidurai import Vidurai
 
